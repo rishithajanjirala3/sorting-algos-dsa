@@ -1,5 +1,5 @@
 # Bubble Sort Function: Pushes the maximum element to the end in each pass using adjacent swaps
-def bubblesort(arr,n):
+def bubblesort(arr,n):#T.C-	O(n²),S.C-O(1)
     for i in range(n-1,-1,-1):
         for j in range(i):
             if arr[j]>arr[j+1]:
